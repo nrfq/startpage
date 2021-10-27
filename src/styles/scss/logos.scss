@@ -1,0 +1,12 @@
+@import "variables";
+
+a {
+    fill: $primary;
+    &:hover{
+        @include reddit-colors;
+        @include mega-colors;
+        @include ghub-colors;
+        @include gmail-colors;
+        @include gdrive-colors;
+    }
+}

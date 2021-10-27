@@ -1,0 +1,71 @@
+// shoutout to https://coolors.co for the palette and naming scheme
+
+$tiffany-blue: #0CBABA;
+$cyan-process: #01BAEF;
+$russian-violet: #380036;
+$warm-black: #004346;
+$rhythm: #726E97;
+
+$primary: $tiffany-blue;
+
+
+
+
+// Logo mixins
+
+@mixin reddit-colors {
+    #reddit{
+        fill: #FF4500;
+    }
+}
+
+@mixin mega-colors{
+    #mega{
+        fill: red;
+    }
+}
+
+@mixin ghub-colors{
+    #ghub{
+        fill: #161614;
+    }
+}
+
+@mixin gmail-colors{
+    #lgmail{
+        fill: #4285f4;
+    }
+    #tlgmail{
+        fill: #c5221f;
+    }
+    #mgmail{
+        fill: #ea4335;
+    }
+    #trgmail{
+        fill: #fbbc04;
+    }
+    #rgmail{
+        fill: #34a853;
+    }
+}
+
+@mixin gdrive-colors{
+    #blgdrive{
+        fill: #0066DA;
+    }
+    #lgdrive{
+        fill: #00AC47;
+    }
+    #tgdrive{
+        fill: #00832D;
+    }
+    #rgdrive{
+        fill: #FFBA00;
+    }
+    #brgdrive{
+        fill: #EA4335;
+    }
+    #bgdrive{
+        fill: #2684FC;
+    }
+}

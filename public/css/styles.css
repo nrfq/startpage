@@ -4613,12 +4613,19 @@ svg {
 path, polygon {
   transition: fill 0.15s ease; }
 
+#searchterm {
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: larger;
+  width: 60vw;
+  height: 2em; }
+
 a {
   fill: #0CBABA; }
   a:hover #reddit {
     fill: #FF4500; }
   a:hover #mega {
-    fill: red; }
+    fill: #DA2316; }
   a:hover #ghub {
     fill: #161614; }
   a:hover #lgmail {

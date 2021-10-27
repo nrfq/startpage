@@ -3,6 +3,7 @@
 a {
     fill: $primary;
     &:hover{
+        @include outlook-colors;
         @include reddit-colors;
         @include mega-colors;
         @include ghub-colors;

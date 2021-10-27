@@ -5,9 +5,10 @@ $( document ).ready(function() {
       let searchTerm = $("#searchterm").val().replace(" ", "+");
       window.location.replace(`https://www.google.com/search?q=${searchTerm}`);
     });
-    document.addEventListener('keydown', function(event) {
+    document.addEventListener('keypress', function(event) {
       let input = document.getElementById("searchterm");
       if(document.activeElement !== input){
+        $('#searchterm').val($('#searchterm').val()+String.fromCharCode(event.which));
         input.focus();
     }
   });

@@ -4622,6 +4622,8 @@ path, polygon {
 
 a {
   fill: #0CBABA; }
+  a:hover #outlook {
+    fill: #0072c6; }
   a:hover #reddit {
     fill: #FF4500; }
   a:hover #mega {

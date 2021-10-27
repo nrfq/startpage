@@ -5,6 +5,9 @@ $cyan-process: #01BAEF;
 $russian-violet: #380036;
 $warm-black: #004346;
 $rhythm: #726E97;
+$blue-sapphire: #2E6171;
+$purp-mtn: #967AA1;
+$light-periwinkle: #D0CFEC;
 
 $primary: $tiffany-blue;
 
@@ -12,6 +15,12 @@ $primary: $tiffany-blue;
 
 
 // Logo mixins
+
+@mixin outlook-colors {
+    #outlook{
+        fill: #0072c6;
+    }
+}
 
 @mixin reddit-colors {
     #reddit{

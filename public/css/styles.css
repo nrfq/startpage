@@ -4622,33 +4622,35 @@ path, polygon {
 
 a {
   fill: #0CBABA; }
-  a:hover #outlook {
-    fill: #0072c6; }
-  a:hover #reddit {
-    fill: #FF4500; }
-  a:hover #mega {
-    fill: #DA2316; }
-  a:hover #ghub {
-    fill: #161614; }
-  a:hover #lgmail {
-    fill: #4285f4; }
-  a:hover #tlgmail {
-    fill: #c5221f; }
-  a:hover #mgmail {
-    fill: #ea4335; }
-  a:hover #trgmail {
-    fill: #fbbc04; }
-  a:hover #rgmail {
-    fill: #34a853; }
-  a:hover #blgdrive {
-    fill: #0066DA; }
-  a:hover #lgdrive {
-    fill: #00AC47; }
-  a:hover #tgdrive {
-    fill: #00832D; }
-  a:hover #rgdrive {
-    fill: #FFBA00; }
-  a:hover #brgdrive {
-    fill: #EA4335; }
-  a:hover #bgdrive {
-    fill: #2684FC; }
+  a:hover, a:focus {
+    background-color: #0CBABA; }
+    a:hover #outlook, a:focus #outlook {
+      fill: #0072c6; }
+    a:hover #reddit, a:focus #reddit {
+      fill: #FF4500; }
+    a:hover #mega, a:focus #mega {
+      fill: #DA2316; }
+    a:hover #ghub, a:focus #ghub {
+      fill: #161614; }
+    a:hover #lgmail, a:focus #lgmail {
+      fill: #4285f4; }
+    a:hover #tlgmail, a:focus #tlgmail {
+      fill: #c5221f; }
+    a:hover #mgmail, a:focus #mgmail {
+      fill: #ea4335; }
+    a:hover #trgmail, a:focus #trgmail {
+      fill: #fbbc04; }
+    a:hover #rgmail, a:focus #rgmail {
+      fill: #34a853; }
+    a:hover #blgdrive, a:focus #blgdrive {
+      fill: #0066DA; }
+    a:hover #lgdrive, a:focus #lgdrive {
+      fill: #00AC47; }
+    a:hover #tgdrive, a:focus #tgdrive {
+      fill: #00832D; }
+    a:hover #rgdrive, a:focus #rgdrive {
+      fill: #FFBA00; }
+    a:hover #brgdrive, a:focus #brgdrive {
+      fill: #EA4335; }
+    a:hover #bgdrive, a:focus #bgdrive {
+      fill: #2684FC; }

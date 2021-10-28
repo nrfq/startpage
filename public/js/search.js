@@ -5,13 +5,15 @@ function testUrl(string) {
     '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*'+ // port and path
     '(\\?[;&a-z\\d%_.~+=-]*)?'+ // query string
     '(\\#[-a-z\\d_]*)?$','i'); // fragment locator
-  if(!pattern.test(string))
+  if(!pattern.test(string)){
+    console.log("invalid");
     return "";
+  }
   let protocalIndex = string.indexOf('://');
   if (protocalIndex === -1) {
-      string = `http://${string}`;    
-      return string;
+      string = `http://${string}`;
   };
+  return string;
 }
 
 $( document ).ready(function() {

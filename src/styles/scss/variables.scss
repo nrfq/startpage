@@ -16,7 +16,9 @@ $primary: $tiffany-blue;
 
 // Logo mixins
 @mixin canvas-colors {
-    fill: #e13f2a;
+    #canvas{
+        fill: #e13f2a;
+    }
 }
 
 @mixin outlook-colors {

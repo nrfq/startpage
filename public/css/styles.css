@@ -4623,8 +4623,9 @@ path, polygon {
 a {
   fill: #0CBABA; }
   a:hover, a:focus {
-    background-color: #0CBABA;
-    fill: #e13f2a; }
+    background-color: #0CBABA; }
+    a:hover #canvas, a:focus #canvas {
+      fill: #e13f2a; }
     a:hover #outlook, a:focus #outlook {
       fill: #0072c6; }
     a:hover #reddit, a:focus #reddit {

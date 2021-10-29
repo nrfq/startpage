@@ -4,6 +4,7 @@ a {
     fill: $primary;
     &:hover, &:focus{
         background-color: $primary;
+        @include canvas-colors;
         @include outlook-colors;
         @include reddit-colors;
         @include mega-colors;
